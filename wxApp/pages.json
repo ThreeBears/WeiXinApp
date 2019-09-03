@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/travel/index",
+			"style": {
+				"navigationBarTitleText": "旅游咨讯"
+			}
+		},{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "房产"
+			}
+		},  {
+			"path": "pages/userCenter/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "旅游咨讯",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0ba95f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/travel/index",
+			"iconPath":"static/travel.png",
+			"selectedIconPath":"static/travel.png",
+			"text": "旅游咨讯"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath":"static/logo.png",
+			"selectedIconPath":"static/logo.png",
+			"text": "房产"
+		}, {
+			"pagePath": "pages/userCenter/index",
+			"iconPath":"static/user.png",
+			"selectedIconPath":"static/user.png",
+			"text": "个人中心"
+		}]
+	}
+}
